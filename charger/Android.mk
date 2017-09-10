@@ -21,7 +21,8 @@ LOCAL_CFLAGS := -Werror
 LOCAL_C_INCLUDES := \
     $(TARGET_OUT_INTERMEDIATES)/KERNEL_OBJ/usr/include \
     system/core/healthd/include \
-    bootable/recovery
+    system/core/base/include \
+    bootable/recovery/minui/include
 
 LOCAL_ADDITIONAL_DEPENDENCIES := \
     $(TARGET_OUT_INTERMEDIATES)/KERNEL_OBJ/usr
